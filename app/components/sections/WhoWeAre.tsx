@@ -13,7 +13,7 @@ export const WhoWeAre = () => {
                                 Who we are
                             </div>
                             <h2 className="text-4xl lg:text-5xl font-bold text-gray-900">
-                                <p>We're a Leader in Agriculture Market</p>
+                               We&apos;re a Leader in Agriculture Market
                             </h2>
                         </div>
                         
