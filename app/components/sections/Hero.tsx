@@ -26,7 +26,7 @@ export const HeroSection = () => {
                             Innovating Today for
                         </h1>
                         <h2 className="font-raleway font-bold text-6xl text-white">
-                            Tomorrow's Harvest
+                            Tomorrows Harvest
                         </h2>
                     </div>
                     
