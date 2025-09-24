@@ -22,7 +22,7 @@ export const HeroSection = () => {
                 <div className="max-w-2xl">
                     {/* Main Headline */}
                     <div className="mb-4">
-                        <h1 className="font-raleway font-bold text-6xl text-green-500 mb-2">
+                        <h1 className="font-raleway font-bold text-6xl text-[#F7C35F] mb-2">
                             Innovating Today for
                         </h1>
                         <h2 className="font-raleway font-bold text-6xl text-white">
