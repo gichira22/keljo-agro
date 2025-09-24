@@ -51,7 +51,7 @@ export const WhyChooseUs = () => {
           <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
             Comprehensive Agricultural Solutions
           </h1>
-          <h2 className="text-2xl lg:text-3xl font-semibold text-[#004316]">
+          <h2 className="text-2xl lg:text-3xl font-semibold text-[#246A21]">
             Why Choose Us
           </h2>
         </div>

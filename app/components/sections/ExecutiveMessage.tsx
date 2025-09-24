@@ -20,10 +20,10 @@ export const ExecutiveMessage = () => {
         {/* Right Column - Message Content */}
         <div className="bg-white p-6 rounded-lg shadow-sm space-y-6 h-full">
           <div>
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">
+            <h2 className="text-4xl font-bold text-black mb-4">
               Executive Directors Message
             </h2>
-            <h3 className="text-2xl font-semibold text-green-600 mb-6">
+            <h3 className="text-2xl font-semibold text-[#246A21] mb-6">
               Mr. Ihuoma Ndubuisi
             </h3>
           </div>

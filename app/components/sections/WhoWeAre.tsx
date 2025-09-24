@@ -9,12 +9,12 @@ export const WhoWeAre = () => {
                     {/* Left Column - Content */}
                     <div className="space-y-8 order-2 lg:order-1">
                         <div className="space-y-4">
-                            <div className="inline-block bg-green-100 text-[#292121] px-4 py-2 rounded-full text-sm font-semibold">
+                            <div className="text-4xl font-bold text-black mb-4">
                                 Who we are
                             </div>
-                            <h2 className="text-4xl lg:text-5xl font-bold text-green-800">
-                               We're a Leader in Agriculture Market
-                            </h2>
+                            <div className="text-2xl font-semibold text-[#246A21] mb-6">
+                               We are a Leader in Agriculture Market
+                            </div>
                         </div>
                         
                         <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
@@ -25,7 +25,7 @@ export const WhoWeAre = () => {
                         </div>
                         
                         {/* CTA Button */}
-                        <button className="bg-green-600 text-white font-semibold px-8 py-4 rounded-lg hover:bg-green-700 transition-all duration-200 transform hover:scale-105 shadow-lg">
+                        <button className="bg-[#246A21] text-white font-semibold px-8 py-4 rounded-lg hover:bg-green-700 transition-all duration-200 transform hover:scale-105 shadow-lg">
                             SEE MORE
                         </button>
                     </div>
