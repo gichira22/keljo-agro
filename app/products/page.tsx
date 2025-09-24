@@ -24,9 +24,9 @@ export default function ProductsPage() {
               Our Products
             </h1>
          
-            <p className="text-xl text-green-200 max-w-2xl mx-auto">
+            {/* <p className="text-xl text-green-200 max-w-2xl mx-auto">
               Quality agricultural products designed to enhance productivity and sustainability
-            </p>
+            </p> */}
           </div>
         </div>
       </section>
