@@ -35,7 +35,7 @@ export const Header = () => {
                 <Link href="/blog" className="text-[19px] text-gray-900 font-normal leading-[32px] hover:text-green-600 transition-colors whitespace-nowrap">
                     Blog
                 </Link>
-                <Link href="/contact" className="text-[19px] text-gray-900 font-normal leading-[32px] hover:text-green-600 transition-colors whitespace-nowrap">
+                <Link href="/contacts" className="text-[19px] text-gray-900 font-normal leading-[32px] hover:text-green-600 transition-colors whitespace-nowrap">
                     Contact Us
                 </Link>
             </nav>
