@@ -134,7 +134,7 @@ export default function ContactUsPage() {
       placeholder="Your full name"
     />
     <span className="absolute inset-y-0 right-0 flex items-center pr-3">
-      <Image src="./icons/user-icon.png" alt="User Icon" className="w-5 h-5 opacity-60" />
+      <Image src="/icons/user-icon.png" alt="User Icon" width={20} height={20} className="opacity-60" />
     </span>
   </div>
 </div>
@@ -151,7 +151,8 @@ export default function ContactUsPage() {
       placeholder="your.email@example.com"
     />
     <span className="absolute inset-y-0 right-0 flex items-center pr-3">
-      <Image src="./icons/mail-icon.png" alt="Email Icon" className="w-5 h-5 opacity-60" />
+      <Image src="/icons/mail-icon.png" alt="Email Icon" width={20} height={20} className="opacity-60" />
+
     </span>
   </div>
 </div>

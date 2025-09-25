@@ -17,7 +17,7 @@ export default function Button({
   className = '',
   type = 'button'
 }: ButtonProps) {
-  const baseStyles = "font-medium rounded-lg transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-opacity-50";
+  const baseStyles = "cursor-pointer font-medium rounded-lg transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-opacity-50";
   
   const variants = {
     primary: "bg-green-600 text-white hover:bg-green-700 shadow-md hover:shadow-lg",
