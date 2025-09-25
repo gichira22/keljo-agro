@@ -25,7 +25,7 @@ export const WhoWeAre = () => {
                         </div>
                         
                         {/* CTA Button */}
-                        <button className="bg-[#246A21] text-white font-semibold px-8 py-4 rounded-lg hover:bg-green-700 transition-all duration-200 transform hover:scale-105 shadow-lg">
+                        <button className="bg-[#246A21] text-white font-semibold px-8 py-4 rounded-lg hover:bg-green-700 transition-all duration-200 transform hover:scale-105 shadow-lg cursor-pointer">
                             SEE MORE
                         </button>
                     </div>

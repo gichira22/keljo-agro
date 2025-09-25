@@ -10,7 +10,7 @@ interface ProductCardProps {
 
 export default function ProductCard({ imageSrc, altText, productName, bgColor = "bg-white" }: ProductCardProps) {
   return (
-    <div className={`${bgColor} rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 p-4 text-center group`}>
+    <div className={`${bgColor} rounded-lg shadow-sm cursor-pointer hover:shadow-md transition-shadow duration-300 p-4 text-center group`}>
       <div className="w-20 h-20 mx-auto mb-3">
         <Image 
           src={imageSrc}

@@ -66,7 +66,7 @@ export const Header = () => {
                         <Link href="/blog" className="text-[19px] text-gray-900 font-normal hover:text-green-600 transition-colors py-2" onClick={() => setIsMenuOpen(false)}>
                             Blog
                         </Link>
-                        <Link href="/contact" className="text-[19px] text-gray-900 font-normal hover:text-green-600 transition-colors py-2" onClick={() => setIsMenuOpen(false)}>
+                        <Link href="/contacts" className="text-[19px] text-gray-900 font-normal hover:text-green-600 transition-colors py-2" onClick={() => setIsMenuOpen(false)}>
                             Contact Us
                         </Link>
                     </div>
