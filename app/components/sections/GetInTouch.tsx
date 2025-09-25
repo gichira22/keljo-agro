@@ -30,7 +30,7 @@ export const GetInTouch: React.FC = () => {
   <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
     <h3 className="text-xl font-bold text-[#246A21] mb-4 flex items-center">
       <div className="w-8 h-8 bg-[#246A21] rounded-full flex items-center justify-center mr-3">
-        <img
+        <Image
           src="/icons/email.svg"
           alt="Email"
           width={20}

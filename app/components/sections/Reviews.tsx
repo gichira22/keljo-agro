@@ -28,7 +28,7 @@ export const Reviews: React.FC = () => {
       name: "Sarah Chen",
       role: "Agricultural Investor",
       company: "Growth Capital Partners",
-      quote: "Keljo Agro's innovative approach to sustainable farming has delivered outstanding returns while supporting local communities."
+      quote: "Keljo Agro&rsquo;s innovative approach to sustainable farming has delivered outstanding returns while supporting local communities."
     }
   ];
 
@@ -81,7 +81,7 @@ export const Reviews: React.FC = () => {
             </div>
 
             {/* Quote Icon */}
-            <div className="text-5xl text-[#F7C35F] mb-4">"</div>
+            <div className="text-5xl text-[#F7C35F] mb-4">&quot;</div>
             
             {/* Review Text at BOTTOM */}
             <blockquote className="text-gray-700 text-lg lg:text-xl leading-relaxed italic max-w-3xl mx-auto">

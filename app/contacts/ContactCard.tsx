@@ -5,10 +5,10 @@ interface ContactCardProps {
   title: string;
   children: React.ReactNode;
   bgColor: string;
-  icon: React.ReactNode;
+//   icon: React.ReactNode;
 }
 
-export default function ContactCard({ title, children, bgColor, icon }: ContactCardProps) {
+export default function ContactCard({ title, children, bgColor}: ContactCardProps) {
   return (
     <div className={`rounded-lg shadow-lg p-8 text-white ${bgColor}`}>
       <div className="text-center">

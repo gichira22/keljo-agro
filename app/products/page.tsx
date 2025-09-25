@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import Image from 'next/image';
 import ProductSection from './ProductSection';
 import { products } from './products';
@@ -23,10 +22,6 @@ export default function ProductsPage() {
             <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
               Our Products
             </h1>
-         
-            {/* <p className="text-xl text-green-200 max-w-2xl mx-auto">
-              Quality agricultural products designed to enhance productivity and sustainability
-            </p> */}
           </div>
         </div>
       </section>
