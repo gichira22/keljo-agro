@@ -23,6 +23,9 @@ export const Header = () => {
 
             {/* Desktop Navigation */}
             <nav className="hidden lg:flex items-start gap-[53px] flex-1 justify-center">
+                <Link href="/" className="text-[19px] text-gray-900 font-normal leading-[32px] hover:text-green-600 transition-colors whitespace-nowrap">
+                    Home
+                </Link>
                 <Link href="/about" className="text-[19px] text-gray-900 font-normal leading-[32px] hover:text-green-600 transition-colors whitespace-nowrap">
                     About Us
                 </Link>
@@ -32,8 +35,8 @@ export const Header = () => {
                 <Link href="/products" className="text-[19px] text-gray-900 font-normal leading-[32px] hover:text-green-600 transition-colors whitespace-nowrap">
                     Products
                 </Link>
-                <Link href="/blog" className="text-[19px] text-gray-900 font-normal leading-[32px] hover:text-green-600 transition-colors whitespace-nowrap">
-                    Blog
+                <Link href="/blogs" className="text-[19px] text-gray-900 font-normal leading-[32px] hover:text-green-600 transition-colors whitespace-nowrap">
+                    Blogs
                 </Link>
                 <Link href="/contacts" className="text-[19px] text-gray-900 font-normal leading-[32px] hover:text-green-600 transition-colors whitespace-nowrap">
                     Contact Us
@@ -54,6 +57,9 @@ export const Header = () => {
             {isMenuOpen && (
                 <div className="absolute top-full left-0 right-0 bg-white shadow-lg lg:hidden z-50">
                     <div className="flex flex-col p-4 space-y-4">
+                        <Link href="/home" className="text-green-200 hover:text-white transition-colors">
+                          Home
+                        </Link>
                         <Link href="/about" className="text-[19px] text-gray-900 font-normal hover:text-green-600 transition-colors py-2" onClick={() => setIsMenuOpen(false)}>
                             About Us
                         </Link>
@@ -63,8 +69,8 @@ export const Header = () => {
                         <Link href="/products" className="text-[19px] text-gray-900 font-normal hover:text-green-600 transition-colors py-2" onClick={() => setIsMenuOpen(false)}>
                             Products
                         </Link>
-                        <Link href="/blog" className="text-[19px] text-gray-900 font-normal hover:text-green-600 transition-colors py-2" onClick={() => setIsMenuOpen(false)}>
-                            Blog
+                        <Link href="/blogs" className="text-[19px] text-gray-900 font-normal hover:text-green-600 transition-colors py-2" onClick={() => setIsMenuOpen(false)}>
+                            Blogs
                         </Link>
                         <Link href="/contacts" className="text-[19px] text-gray-900 font-normal hover:text-green-600 transition-colors py-2" onClick={() => setIsMenuOpen(false)}>
                             Contact Us
