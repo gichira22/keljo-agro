@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 interface StakeholderCard {
@@ -96,10 +97,12 @@ export const WhyChooseUs = () => {
 
         {/* Get in Touch Button */}
         <div className="text-center mt-16">
-          <button className="relative bg-[#004316] text-white font-semibold px-8 py-4 rounded-lg hover:bg-green-800 hover:scale-105 transition-all duration-300 transform shadow-lg hover:shadow-xl border-2 border-transparent hover:border-green-300 group cursor-pointer overflow-hidden">
-            <span className="relative z-10">GET IN TOUCH</span>
-            <div className="absolute inset-0 bg-gradient-to-r from-green-700/0 via-green-600/20 to-green-700/0 group-hover:via-green-600/40 group-hover:to-green-700/20 transition-all duration-300 transform group-hover:scale-150"></div>
-          </button>
+          <Link href="/contacts">
+            <button className="relative bg-[#004316] text-white font-semibold px-8 py-4 rounded-lg hover:bg-green-800 hover:scale-105 transition-all duration-300 transform shadow-lg hover:shadow-xl border-2 border-transparent hover:border-green-300 group cursor-pointer overflow-hidden">
+              <span className="relative z-10">GET IN TOUCH</span>
+              <div className="absolute inset-0 bg-gradient-to-r from-green-700/0 via-green-600/20 to-green-700/0 group-hover:via-green-600/40 group-hover:to-green-700/20 transition-all duration-300 transform group-hover:scale-150"></div>
+            </button>
+          </Link>
         </div>
       </div>
     </section>

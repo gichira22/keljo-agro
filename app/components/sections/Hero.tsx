@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import Link from 'next/link';
 
 export const HeroSection = () => {
     return (
@@ -38,11 +39,14 @@ export const HeroSection = () => {
                     </p>
                     
                     {/* CTA Button */}
-                    <div className="flex justify-center md:justify-start">
-                        <button className="bg-[#DCA443] text-black font-raleway font-bold text-sm sm:text-base md:text-lg px-6 py-3 sm:px-8 sm:py-4 md:px-10 md:py-5 rounded-xl md:rounded-2xl transition-all duration-200 hover:scale-105 active:scale-95 shadow-lg hover:shadow-xl cursor-pointer">
-                            LEARN MORE
-                        </button>
-                    </div>
+
+<div className="flex justify-center md:justify-start">
+    <Link href="/about">
+        <button className="bg-[#DCA443] text-black font-raleway font-bold text-sm sm:text-base md:text-lg px-6 py-3 sm:px-8 sm:py-4 md:px-10 md:py-5 rounded-xl md:rounded-2xl transition-all duration-200 hover:scale-105 active:scale-95 shadow-lg hover:shadow-xl cursor-pointer">
+            LEARN MORE
+        </button>
+    </Link>
+</div>
                 </div>
             </div>
 

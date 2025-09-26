@@ -90,7 +90,7 @@ export const GetInTouch: React.FC = () => {
                 4th Floor Wing D Re–Insurance Building<br />
                 Hot 764 Herbert Macaulay way CBD, Abuja
               </p>
-            </div>
+            </div>  
           </div>
 
           {/* Right Column - Message Form */}
