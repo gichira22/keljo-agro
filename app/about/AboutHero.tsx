@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 export const AboutHero = () => {
   return (
-    <section className="relative py-24 md:py-32 lg:py-40 bg-green-900">
+    <section className="relative h-screen py-24 md:py-32 lg:py-40 bg-green-900">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 bg-black opacity-50">
         <Image 
@@ -22,9 +22,9 @@ export const AboutHero = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center max-w-4xl mx-auto">
           
-          <p className="text-lg md:text-4xl font-bold lg:text-4xl text-white text-center leading-relaxed mb-8 md:mb-10">
+          <h2 className="text-4xl md:text-6xl font-extrabold lg:text-5xl text-white text-center leading-relaxed mb-8 md:mb-20">
             We are a leading agribusiness driving innovation, sustainability, and excellence in agriculture.
-          </p>
+          </h2>
           
           {/* Contact Button */}
           <Link 

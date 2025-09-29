@@ -64,7 +64,7 @@ export default function SingleBlog({ params }: SingleBlogProps) {
       <div className="mx-auto px-4 sm:px-6 lg:px-8 max-w-5xl">
         
         {/* Navigation Breadcrumb */}
-        <nav className="mb-6 md:mb-8">
+        {/* <nav className="mb-6 md:mb-8">
           <Link 
             href="/blogs" 
             className="inline-flex items-center text-[#246A21] hover:text-green-700 font-medium transition-colors duration-200 text-sm md:text-base"
@@ -74,7 +74,7 @@ export default function SingleBlog({ params }: SingleBlogProps) {
             </svg>
             Back to Blogs
           </Link>
-        </nav>
+        </nav> */}
 
         {/* Main Article Content */}
         <div>
@@ -216,7 +216,7 @@ export default function SingleBlog({ params }: SingleBlogProps) {
                   href={`/blogs/${prevPost.id}`}
                   className="group p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-all duration-200"
                 >
-                  <div className="flex items-center text-[#246A21] mb-2 text-sm">
+                  <div className="flex items-center text-[#246A21] mb-2 text-sm font-bold  hover:text-green-600">
                     <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
                     </svg>
@@ -230,7 +230,7 @@ export default function SingleBlog({ params }: SingleBlogProps) {
                   href={`/blogs/${nextPost.id}`}
                   className="group p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-all duration-200 text-right"
                 >
-                  <div className="flex items-center justify-end text-[#246A21] mb-2 text-sm">
+                  <div className="flex items-center justify-end text-[#246A21] mb-2 text-sm  font-bold hover:text-green-600">
                     Next Article
                     <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />

@@ -5,7 +5,7 @@ export default function ServicesPage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section with Background Image */}
-      <section className="relative py-32 bg-green-900">
+      <section className="relative h-screen py-32 bg-green-900">
         <div className="absolute inset-0 bg-black opacity-50">
           <Image 
             src="/services.jpg"
@@ -19,7 +19,7 @@ export default function ServicesPage() {
         <div className="container mx-auto px-4 relative z-10">
           <div className="text-center">
             {/* Main Title */}
-            <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
+            <h1 className="text-5xl md:text-7xl font-bold text-white mt-40">
               Services
             </h1>
             

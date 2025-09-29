@@ -7,6 +7,7 @@ export const ExecutiveMessage = () => {
         
         {/* Left Column - Executive Image */}
         <div className="flex flex-col items-center text-center bg-white p-6 rounded-lg shadow-sm h-full">
+          
           <Image 
             src="/message.jpg" 
             alt="Executive Director" 
