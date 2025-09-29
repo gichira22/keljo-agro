@@ -3,10 +3,14 @@ import {Reviews} from '../components/sections/Reviews'; // Using alias import (r
 import Teams from './Teams'
 import {Values} from './Values'
 import { AboutHero } from './AboutHero';
+import { AboutUs } from './AboutUs';
+import Mision from './Mision';
 const AboutPage: React.FC = () => {
   return (
     <main>
       <AboutHero />
+      <AboutUs />
+      <Mision />
       <Values />
       <Teams />
       <Reviews />

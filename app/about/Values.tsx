@@ -87,11 +87,8 @@ export const Values = () => {
 
 const ValueCard = ({ value }: { value: ValueCard }) => {
   return (
-    // <div className="group relative flex flex-col items-center text-center bg-gradient-to-br from-[#004316] to-[#006627] rounded-3xl p-8 lg:p-10 min-h-[320px] shadow-xl hover:shadow-3xl transition-all duration-500 hover:-translate-y-3 cursor-pointer overflow-hidden">
+   
         <div className="group relative flex flex-col items-center text-center bg-[#F4F5F0] rounded-3xl p-8 lg:p-10 min-h-[320px] shadow-xl hover:shadow-3xl transition-all duration-500 hover:-translate-y-3 cursor-pointer overflow-hidden">
-  
-      {/* Enhanced hover effects */}
-      {/* Icon with enhanced styling */}
       <div className="relative mb-6 p-4 bg-white rounded-xl w-20 h-20 lg:w-24 lg:h-24 flex items-center justify-center group-hover:scale-110 group-hover:rotate-6 group-hover:bg-green-50 transition-all duration-500 z-10">
         <Image 
           src={value.icon}
@@ -102,7 +99,7 @@ const ValueCard = ({ value }: { value: ValueCard }) => {
         />
       </div>
       
-      {/* Content with better typography */}
+      {/* Content */}
       <div className="relative z-10 flex flex-col flex-grow space-y-4">
        <h3 className="text-xl lg:text-2xl font-bold text-[#292121] group-hover:text-[#292121] transition-all duration-300">
 
