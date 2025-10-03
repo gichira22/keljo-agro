@@ -22,9 +22,9 @@ export const AboutHero = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center max-w-4xl mx-auto">
           
-          <h2 className="text-4xl md:text-6xl font-extrabold lg:text-5xl text-white text-center leading-relaxed mb-8 md:mb-20">
-            We are a leading agribusiness driving innovation, sustainability, and excellence in agriculture.
-          </h2>
+          <h3 className="text-4xl md:text-6xl font-bold lg:text-4xl text-white text-center leading-relaxed mb-8 md:mb-30">
+           We are shaping the future of agriculture through innovation, sustainability, and strategic partnerships
+          </h3>
           
           {/* Contact Button */}
           <Link 

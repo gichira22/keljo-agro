@@ -3,23 +3,22 @@ import Image from 'next/image';
 export const ExecutiveMessage = () => {
   return (
     <section className="w-full bg-white px-4 py-16">
-      <div className="max-w-[1440px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
+      <div className="max-w-[1440px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-stretch">
         
         {/* Left Column - Executive Image */}
-        <div className="flex flex-col items-center text-center bg-white p-6 rounded-lg shadow-sm h-full">
-          
+         <div className="flex items-start ">
+           <div className="h-[500px] w-5 bg-[#F7C35F] rounded-tl-lg rounded-bl-lg" />
           <Image 
-            src="/message.jpg" 
+            src="/ihuoma.png" 
             alt="Executive Director" 
             width={564} 
             height={724} 
             className="rounded-lg object-cover w-full h-auto"
           />
-          <div className="text-lg text-gray-600 mt-4">Mr. Ihuoma Ndubuisi</div>
         </div>
 
         {/* Right Column - Message Content */}
-        <div className="bg-white p-6 rounded-lg shadow-sm space-y-6 h-full">
+        <div className="bg-white p-6 rounded-lg  space-y-6 h-full">
           <div>
             <h2 className="text-4xl font-bold text-black mb-4">
               Executive Directors Message
