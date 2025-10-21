@@ -7,21 +7,24 @@ export const StatsSection = () => {
           style={{ background: 'var(--Secondary, #F7C35F)' }}
         >
           {/* Stat 1 */}
-          <div className="text-center">
+          <div className="text-center relative">
             <div className="text-3xl font-bold text-gray-900 mb-2">$20m</div>
-            <div className="text-sm text-gray-800">Net income generated</div>
+            <div className="text-sm text-gray-800">Net Income generated</div>
+            <div className="hidden md:block absolute top-1/2 -right-4 transform -translate-y-1/2 w-px h-8 bg-gray-700/30"></div>
           </div>
 
           {/* Stat 2 */}
-          <div className="text-center">
+          <div className="text-center relative">
             <div className="text-3xl font-bold text-gray-900 mb-2">$130m</div>
             <div className="text-sm text-gray-800">Income generated for our partners</div>
+            <div className="hidden md:block absolute top-1/2 -right-4 transform -translate-y-1/2 w-px h-8 bg-gray-700/30"></div>
           </div>
 
           {/* Stat 3 */}
-          <div className="text-center">
+          <div className="text-center relative">
             <div className="text-3xl font-bold text-gray-900 mb-2">83</div>
             <div className="text-sm text-gray-800">Partner farmers and growers</div>
+            <div className="hidden md:block absolute top-1/2 -right-4 transform -translate-y-1/2 w-px h-8 bg-gray-700/30"></div>
           </div>
 
           {/* Stat 4 */}
