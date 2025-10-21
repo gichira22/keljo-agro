@@ -63,7 +63,7 @@ export const GetInTouch: React.FC = () => {
     </h3>
     <div className="space-y-3">
       <div className="flex justify-between items-center py-2">
-        <span className="text-[#292121] font-medium">Phone Number</span>
+        <span className="text-[#292121] font-medium">+234 803 224 0379</span>
       </div>
     </div>
   </div>
