@@ -45,7 +45,7 @@ export const Header = () => {
 
             {/* Mobile Menu Button */}
             <button 
-                className="lg:hidden p-2 rounded-md text-gray-700 hover:text-green-600 transition-colors"
+                className="lg:hidden p-2 rounded-md text-gray-700 hover:text-green-600 transition-colors cursor-pointer "
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
             >
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -57,8 +57,8 @@ export const Header = () => {
             {isMenuOpen && (
                 <div className="absolute top-full left-0 right-0 bg-white shadow-lg lg:hidden z-50">
                     <div className="flex flex-col p-4 space-y-4">
-                        <Link href="/home" className="text-green-200 hover:text-white transition-colors">
-                          Home
+                        <Link href="/" className="text-[19px] text-gray-900 font-normal hover:text-green-600 transition-colors py-2" onClick={() => setIsMenuOpen(false)}>
+                            Home
                         </Link>
                         <Link href="/about" className="text-[19px] text-gray-900 font-normal hover:text-green-600 transition-colors py-2" onClick={() => setIsMenuOpen(false)}>
                             About Us

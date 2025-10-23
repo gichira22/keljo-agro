@@ -4,8 +4,8 @@ import Image from 'next/image';
 export default function ServicesPage() {
   return (
     <div className="min-h-screen bg-white">
-      {/* Hero Section with Background Image */}
-      <section className="relative h-screen py-32 bg-green-900">
+      {/* Hero Section */}
+      <section className="relative py-32 bg-green-900">
         <div className="absolute inset-0 bg-black opacity-50">
           <Image 
             src="/services.jpg"
@@ -19,13 +19,11 @@ export default function ServicesPage() {
         <div className="container mx-auto px-4 relative z-10">
           <div className="text-center">
             {/* Main Title */}
-            <h1 className="text-5xl md:text-7xl font-bold text-white mt-40">
+            <h1 className="text-5xl md:text-7xl font-bold text-white">
               Services
             </h1>
             
-            {/* Decorative Line */}
-            {/* <div className="w-32 h-1 bg-green-600 mx-auto mb-8 rounded-full"></div> */}
-          </div>
+            </div>
         </div>
       </section>
 
@@ -34,9 +32,9 @@ export default function ServicesPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto space-y-8">
 
-            <div className="flex flex-col md:flex-row gap-8">
+            <div className="flex flex-col md:flex-row gap-8 ">
               {/* Crop Production */}
-              <div className="flex-1 group">
+              <div className="flex-1 group cursor-pointer">
                 <div className="bg-[#F4F5F0] rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 p-8 border border-gray-100 hover:border-green-200 hover:-translate-y-2 h-full">
                   <div className="flex justify-center mb-4">
                     <Image 
@@ -59,7 +57,7 @@ export default function ServicesPage() {
               </div>
 
               {/* Livestock Production */}
-              <div className="flex-1 group">
+              <div className="flex-1 group cursor-pointer">
                 <div className="bg-[#F4F5F0] rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 p-8 border border-gray-100 hover:border-green-200 hover:-translate-y-2 h-full">
                   <div className="flex justify-center mb-4">
                     <Image 
@@ -84,7 +82,7 @@ export default function ServicesPage() {
 
             {/*Agricultural Trade & Farmer Aggregation */}
             <div className="flex flex-col md:flex-row gap-8">
-              <div className="flex-1 group">
+              <div className="flex-1 group cursor-pointer">
                 <div className="bg-[#F4F5F0] rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 p-8 border border-gray-100 hover:border-green-200 hover:-translate-y-2 h-full">
                   <div className="flex justify-center mb-4">
                     <Image 
@@ -107,7 +105,7 @@ export default function ServicesPage() {
               </div>
 
               {/* Farmer Aggregation - Right Card */}
-              <div className="flex-1 group">
+              <div className="flex-1 group cursor-pointer">
                 <div className="bg-[#F4F5F0] rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 p-8 border border-gray-100 hover:border-green-200 hover:-translate-y-2 h-full">
                   <div className="flex justify-center mb-4">
                     <Image 
@@ -133,7 +131,7 @@ export default function ServicesPage() {
             {/* Row 3: Fertilizer Trials & Agro-Processing */}
             <div className="flex flex-col md:flex-row gap-8">
               {/* Fertilizer Trials - Left Card */}
-              <div className="flex-1 group">
+              <div className="flex-1 group cursor-pointer">
                 <div className="bg-[#F4F5F0] rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 p-8 border border-gray-100 hover:border-green-200 hover:-translate-y-2 h-full">
                   <div className="flex justify-center mb-4">
                     <Image 
@@ -156,7 +154,7 @@ export default function ServicesPage() {
               </div>
 
               {/* Agro-Processing - Right Card */}
-              <div className="flex-1 group">
+              <div className="flex-1 group cursor-pointer">
                 <div className="bg-[#F4F5F0] rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 p-8 border border-gray-100 hover:border-green-200 hover:-translate-y-2 h-full">
                   <div className="flex justify-center mb-4">
                     <Image 
@@ -182,7 +180,7 @@ export default function ServicesPage() {
             {/* Row 4: Consultancy Services & Supply Chain */}
             <div className="flex flex-col md:flex-row gap-8">
               {/* Consultancy Services - Left Card */}
-              <div className="flex-1 group">
+              <div className="flex-1 group cursor-pointer">
                 <div className="bg-[#F4F5F0] rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 p-8 border border-gray-100 hover:border-green-200 hover:-translate-y-2 h-full">
                   <div className="flex justify-center mb-4">
                     <Image 
@@ -205,7 +203,7 @@ export default function ServicesPage() {
               </div>
 
               {/* Supply Chain - Right Card */}
-              <div className="flex-1 group">
+              <div className="flex-1 group cursor-pointer">
                 <div className="bg-[#F4F5F0] rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 p-8 border border-gray-100 hover:border-green-200 hover:-translate-y-2 h-full">
                   <div className="flex justify-center mb-4">
                     <Image 
@@ -225,6 +223,36 @@ export default function ServicesPage() {
                     <div className="w-full h-1 bg-gradient-to-r from-green-400 to-green-600 rounded-full"></div>
                   </div>
                 </div>
+              </div>
+            </div>
+            {/* Row 5: Capacity building*/}
+            <div className="flex flex-col md:flex-row gap-8">
+              {/* Capacity building- Left Card */}
+              <div className="flex-1 group cursor-pointer">
+                <div className="bg-[#F4F5F0] rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 p-8 border border-gray-100 hover:border-green-200 hover:-translate-y-2 h-full">
+                  <div className="flex justify-center mb-4">
+                    <Image 
+                      src="/icons/services-icon.svg" 
+                      alt="Consultancy Services" 
+                      width={40} 
+                      height={40}
+                    />
+                  </div>
+                  <h3 className="text-xl font-semibold text-center text-gray-800 mb-4">
+                    Capacity building
+                  </h3>
+                  <p className="text-black text-center leading-relaxed">
+                    We build farmer capacity with the right skills, tools, and partnerships to drive innovation, sustainability, and growth in agriculture.
+                  </p>
+                  <div className="mt-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <div className="w-full h-1 bg-gradient-to-r from-green-400 to-green-600 rounded-full"></div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Right Card */}
+              <div className="flex-1 group">
+                
               </div>
             </div>
 

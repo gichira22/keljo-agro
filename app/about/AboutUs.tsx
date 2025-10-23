@@ -2,8 +2,8 @@ import Image from 'next/image';
 
 export const AboutUs = () => {
     return (
-        <section className="min-h-screen w-full bg-white py-8 lg:py-40">
-            <div className="h-full w-full max-w-[1540px] mx-auto px-4 lg:px-8">
+        <section className="w-full bg-white py-8 lg:py-40">
+            <div className=" w-full max-w-[1540px] mx-auto px-4 lg:px-8">
                 <div className="grid grid-cols-1 lg:grid-cols-2 items-stretch gap-6 lg:gap-8 h-full">
                     
                     {/* Left Column - Content */}

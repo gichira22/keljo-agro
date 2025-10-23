@@ -92,7 +92,7 @@ export default function BlogPage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="relative h-screen py-32 bg-green-900">
+      <section className="relative py-32 bg-green-900">
         <div className="absolute inset-0 bg-black opacity-50">
           <Image 
             src="/services.jpg"
@@ -103,9 +103,9 @@ export default function BlogPage() {
           />
         </div>
         
-        <div className="container mx-auto py-32 relative z-10">
+        <div className="container mx-auto  relative z-10">
           <div className="text-center">
-            <h1 className="text-5xl md:text-7xl font-bold text-white mb-9">
+            <h1 className="text-5xl md:text-7xl font-bold text-white">
               Blogs
             </h1>
           </div>
