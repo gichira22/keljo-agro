@@ -50,7 +50,7 @@ export const Values = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-[#292121] mb-4">Our Core Values</h2>
         </div>
-
+h
         <div className="bg-white rounded-xl shadow-lg p-10 lg:p-16 mx-auto max-w-6xl">
           
           {/* Organized cards layout */}

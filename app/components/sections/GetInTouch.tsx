@@ -60,36 +60,36 @@ export const GetInTouch: React.FC = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {/* Email */}
               <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-                <h3 className="text-xl font-bold text-[#246A21] mb-4 flex items-center">
+                <h3 className="text-xl font-semibold text-[#246A21] mb-4 flex items-center">
                   <div className="w-8 h-8 bg-[#246A21] rounded-full flex items-center justify-center mr-3">
                     <Image src="/icons/email.svg" alt="Email" width={20} height={20} />
                   </div>
                   Email
                 </h3>
-                <p className="text-[#292121] font-medium">info@keljoagro.com</p>
+                <p className="text-black font-medium">info@keljoagro.com</p>
               </div>
 
               {/* Phone */}
               <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-                <h3 className="text-xl font-bold text-[#246A21] mb-4 flex items-center">
+                <h3 className="text-xl font-semibold text-[#246A21] mb-4 flex items-center">
                   <div className="w-8 h-8 bg-[#246A21] rounded-full flex items-center justify-center mr-3">
                     <Image src="/icons/call.svg" alt="Phone" width={20} height={20} />
                   </div>
                   Phone
                 </h3>
-                <p className="text-[#292121] font-medium">+234 803 224 0379</p>
+                <p className="text-black font-medium">+234 803 224 0379</p>
               </div>
             </div>
 
             {/* Office */}
             <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-              <h3 className="text-xl font-bold text-[#246A21] mb-4 flex items-center">
+              <h3 className="text-xl font-semibold text-[#246A21] mb-4 flex items-center">
                 <div className="w-8 h-8 bg-[#246A21] rounded-full flex items-center justify-center mr-3">
                   <Image src="/icons/location.svg" alt="Location" width={20} height={20} />
                 </div>
                 Office
               </h3>
-              <p className="text-[#292121] font-medium">
+              <p className="text-black font-medium">
                 4th Floor Wing D Re–Insurance Building<br />
                 Hot 764 Herbert Macaulay way CBD, Abuja
               </p>
@@ -101,7 +101,7 @@ export const GetInTouch: React.FC = () => {
             <form onSubmit={handleSubmit} className="space-y-6">
               {/* Email */}
               <div>
-                <label htmlFor="email" className="block text-sm text-[#246A21] mb-2">
+                <label htmlFor="email" className="block text-xl font-semibold text-[#246A21] mb-2">
                   Email *
                 </label>
                 <input
@@ -117,7 +117,7 @@ export const GetInTouch: React.FC = () => {
 
               {/* Message */}
               <div>
-                <label htmlFor="message" className="block text-sm text-[#246A21] mb-2">
+                <label htmlFor="message" className="block text-xl font-semibold text-[#246A21] mb-2">
                   Message *
                 </label>
                 <textarea

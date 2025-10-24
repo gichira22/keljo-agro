@@ -1,8 +1,7 @@
 import { HeroSection } from './components/sections/Hero';
 import { StatsSection } from './components/sections/StatsSection';
 import { ExecutiveMessage } from './components/sections/ExecutiveMessage';
-import { WhoWeAre } from './components/sections/WhoWeAre';
-import { WhyChooseUs } from './components/sections/WhyChooseUs';
+import { WhyChooseUs } from './components/sections/WhatWeOffer';
 import { Reviews } from './components/sections/Reviews';
 import { GetInTouch } from './components/sections/GetInTouch';
 export default function Home() {
@@ -11,7 +10,6 @@ export default function Home() {
       <HeroSection />
       <StatsSection />
       <ExecutiveMessage />
-      <WhoWeAre />
       <WhyChooseUs />
       <Reviews />
       <GetInTouch />

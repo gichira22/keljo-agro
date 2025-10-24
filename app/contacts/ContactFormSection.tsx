@@ -3,7 +3,7 @@
 
 import { useState } from 'react';
 import Image from 'next/image';
-import { FormData } from '../types/Contacts';
+import { FormData } from './Contacts';
 
 export const ContactFormSection = () => {
   const [formData, setFormData] = useState<FormData>({
@@ -83,27 +83,25 @@ export const ContactFormSection = () => {
 
   return (
     <section className="relative min-h-screen w-full">
-      {/* Background Image - FIXED: Proper container */}
       <div className="absolute inset-0">
         <Image 
           src="/contacts-bg.jpg" 
           alt="Agricultural background" 
           fill
-          className="object-cover"
+          className="object-cover align-stretch"
           priority
-          sizes="(max-width: 1024px) 100vw, 50vw"
+          sizes="(max-width: 1024px) 100vw, 50vw h-screen"
         />
       </div>
 
       {/* Overlay wrapper and form */}
       <div className="relative z-10 w-full min-h-screen flex flex-col lg:flex-row items-stretch">
         {/* Image Area - Visible on desktop */}
-        <div className="hidden lg:block lg:w-1/2 min-h-screen">
-          {/* This space shows the background image on desktop */}
+        <div className="hidden lg:block lg:w-1/2 h-[85%] relative">
         </div>
         
         {/* Form Container */}
-        <div className="w-full lg:w-1/2 min-h-screen bg-white flex items-center justify-center py-12 lg:py-0">
+        <div className="w-full lg:w-1/2 min-h-screen bg-[#F4F5F0] flex items-center justify-center py-12 lg:py-0">
           <div className="w-full max-w-2xl mx-auto px-6 lg:px-12">
             <h2 className="text-3xl lg:text-4xl font-bold text-black mb-6">Send us a message</h2>
 
@@ -120,7 +118,7 @@ export const ContactFormSection = () => {
                       id="fullName"
                       value={formData.fullName}
                       onChange={handleChange}
-                      className="w-full pr-10 pl-4 py-3 border border-gray-300 rounded-lg text-black focus:outline-none focus:ring-2 focus:ring-gray-400 focus:border-transparent transition-colors"
+                      className="bg-white w-full pr-10 pl-4 py-3 border border-gray-300 rounded-lg text-black focus:outline-none focus:ring-2 focus:ring-gray-400 focus:border-transparent transition-colors"
                       placeholder="Your full name"
                     />
                     <span className="absolute inset-y-0 right-0 flex items-center pr-3">
@@ -140,7 +138,7 @@ export const ContactFormSection = () => {
                       required
                       value={formData.email}
                       onChange={handleChange}
-                      className="w-full pr-10 pl-4 py-3 border border-gray-300 rounded-lg text-black focus:outline-none focus:ring-2 focus:ring-gray-400 focus:border-transparent transition-colors"
+                      className="bg-white w-full pr-10 pl-4 py-3 border border-gray-300 rounded-lg text-black focus:outline-none focus:ring-2 focus:ring-gray-400 focus:border-transparent transition-colors"
                       placeholder="your.email@example.com"
                     />
                     <span className="absolute inset-y-0 right-0 flex items-center pr-3">
@@ -160,7 +158,7 @@ export const ContactFormSection = () => {
                   id="subject"
                   value={formData.subject}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg text-black focus:outline-none focus:ring-2 focus:ring-gray-400 focus:border-transparent transition-colors"
+                  className="bg-white w-full px-4 py-3 border border-gray-300 rounded-lg text-black focus:outline-none focus:ring-2 focus:ring-gray-400 focus:border-transparent transition-colors"
                   placeholder="Subject of your message"
                 />
               </div>
@@ -172,7 +170,7 @@ export const ContactFormSection = () => {
                     Your Message *
                   </label>
                   <span className={`text-xs ${formData.message.length < 50 ? 'text-red-500' : 'text-green-600'}`}>
-                    {formData.message.length}
+                    {formData.message.length}/50
                   </span>
                 </div>
                 <textarea
@@ -181,7 +179,7 @@ export const ContactFormSection = () => {
                   required
                   value={formData.message}
                   onChange={handleChange}
-                  className="text-black w-full px-4 py-3 border border-gray-300 rounded-lg resize-vertical focus:outline-none focus:ring-2 focus:ring-gray-400 focus:border-transparent transition-colors"
+                  className="bg-white text-black w-full px-4 py-3 border border-gray-300 rounded-lg resize-vertical focus:outline-none focus:ring-2 focus:ring-gray-400 focus:border-transparent transition-colors"
                   placeholder="Write your message here..."
                 ></textarea>
               </div>

@@ -226,9 +226,9 @@ export default function ServicesPage() {
               </div>
             </div>
             {/* Row 5: Capacity building*/}
-            <div className="flex flex-col md:flex-row gap-8">
-              {/* Capacity building- Left Card */}
-              <div className="flex-1 group cursor-pointer">
+            <div className="flex justify-center">
+              
+              <div className="fw-full max-w-2xl group cursor-pointer">
                 <div className="bg-[#F4F5F0] rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 p-8 border border-gray-100 hover:border-green-200 hover:-translate-y-2 h-full">
                   <div className="flex justify-center mb-4">
                     <Image 
@@ -250,10 +250,7 @@ export default function ServicesPage() {
                 </div>
               </div>
 
-              {/* Right Card */}
-              <div className="flex-1 group">
-                
-              </div>
+              
             </div>
 
           </div>

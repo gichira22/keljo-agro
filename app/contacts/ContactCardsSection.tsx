@@ -1,5 +1,5 @@
 // app/contact-us/sections/ContactCardsSection.tsx
-import ContactCard from '../ContactCard';
+import ContactCard from './ContactCard';
 
 export const ContactCardsSection = () => {
   // WhatsApp configuration

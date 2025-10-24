@@ -1,7 +1,7 @@
 // app/contact-us/page.tsx
-import { HeroSection } from './sections/HeroSection';
-import { ContactCardsSection } from './sections/ContactCardsSection';
-import { ContactFormSection } from './sections/ContactFormSection';
+import { HeroSection } from './HeroSection';
+import { ContactCardsSection } from './ContactCardsSection';
+import { ContactFormSection } from './ContactFormSection';
 
 export default function ContactUsPage() {
   return (
