@@ -23,9 +23,7 @@ export const Header = () => {
 
             {/* Desktop Navigation */}
             <nav className="hidden lg:flex items-start gap-[53px] flex-1 justify-center">
-                <Link href="/" className="text-[19px] text-gray-900 font-normal leading-[32px] hover:text-green-600 transition-colors whitespace-nowrap">
-                    Home
-                </Link>
+            
                 <Link href="/about" className="text-[19px] text-gray-900 font-normal leading-[32px] hover:text-green-600 transition-colors whitespace-nowrap">
                     About Us
                 </Link>
@@ -57,9 +55,6 @@ export const Header = () => {
             {isMenuOpen && (
                 <div className="absolute top-full left-0 right-0 bg-white shadow-lg lg:hidden z-50">
                     <div className="flex flex-col p-4 space-y-4">
-                        <Link href="/" className="text-[19px] text-gray-900 font-normal hover:text-green-600 transition-colors py-2" onClick={() => setIsMenuOpen(false)}>
-                            Home
-                        </Link>
                         <Link href="/about" className="text-[19px] text-gray-900 font-normal hover:text-green-600 transition-colors py-2" onClick={() => setIsMenuOpen(false)}>
                             About Us
                         </Link>

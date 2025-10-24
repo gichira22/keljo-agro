@@ -59,7 +59,7 @@ export default function Footer() {
               </a>
               {/* WhatsApp */}
               <a 
-                href="https://wa.me/2348032240379" 
+                href="https://wa.me/+2348032240379" 
                 className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-white/20 transition-colors"
                 aria-label="Chat with us on WhatsApp"
                 target="_blank"
@@ -78,11 +78,6 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/" className="text-green-200 hover:text-white transition-colors">
-                  Home
-                </Link>
-              </li>
-              <li>
                 <Link href="/about" className="text-green-200 hover:text-white transition-colors">
                   About Us
                 </Link>
@@ -98,8 +93,8 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/contacts" className="text-green-200 hover:text-white transition-colors">
-                  Contact
+                <Link href="/products" className="text-green-200 hover:text-white transition-colors">
+                  Products
                 </Link>
               </li>
             </ul>
@@ -107,29 +102,25 @@ export default function Footer() {
 
           {/* Contact Info */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
+            <h3 className="text-lg font-semibold mb-4">About</h3>
             <ul className="space-y-3 text-green-200">
               <li className="flex items-center space-x-3">
-                <svg className="w-4 h-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
-                </svg>
-                <span>Nigeria</span>
+               
+                <a href="/about" className="hover:text-white transition-colors">
+                  Testimonials
+                </a>
+                
               </li>
               <li className="flex items-center space-x-3">
-                <svg className="w-4 h-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
-                </svg>
+               
                 <a href="tel:+2348032240379" className="hover:text-white transition-colors">
-                  +234 803 224 0379
+                  Career
                 </a>
               </li>
               <li className="flex items-center space-x-3">
-                <svg className="w-4 h-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
-                </svg>
-                <a href="mailto:info@keljoagro.com" className="hover:text-white transition-colors">
-                  info@keljoagro.com
+               
+                <a href="/contacts" className="hover:text-white transition-colors">
+                  Contact Us
                 </a>
               </li>
             </ul>

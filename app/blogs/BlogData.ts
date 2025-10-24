@@ -39,22 +39,9 @@ export const blogPosts: BlogPost[] = [
       avatar: '/reviews.jpg'
     }
   },
+ 
   {
     id: '2',
-    title: 'Invest In Precision Farming Tools For Efficiency',
-    excerpt: 'Explore the latest advancements in agricultural technology and precision farming tools that are revolutionizing modern agriculture.',
-    content: 'Full content about precision farming...',
-    imageUrl: '/blogs/precision-farming.png',
-    category: 'Technology',
-    date: 'Nov 12, 2024',
-    readTime: '7 min read',
-    author: {
-      name: 'Mike Chen',
-      avatar: '/reviews.jpg'
-    }
-  },
-  {
-    id: '3',
     title: 'Explore Vertical Farming Benefits',
     excerpt: 'Learn about vertical farming advantages and how urban agriculture is shaping the future of sustainable food production.',
     content: 'Full content about vertical farming...',
@@ -67,22 +54,9 @@ export const blogPosts: BlogPost[] = [
       avatar: '/reviews.jpg'
     }
   },
-  {
-    id: '4',
-    title: 'Adopt Regenerative Agriculture Practices',
-    excerpt: 'Implement new methods for soil health improvement through regenerative agriculture practices that benefit both crops and environment.',
-    content: 'Full content about regenerative agriculture...',
-    imageUrl: '/blogs/regenerative-ag.png',
-    category: 'Sustainability',
-    date: 'Nov 8, 2024',
-    readTime: '8 min read',
-    author: {
-      name: 'Dr. James Wilson',
-      avatar: '/reviews.jpg'
-    }
-  },
-  {
-    id: '5',
+
+   {
+    id: '3',
     title: 'Utilize Hydroponic Systems Effectively',
     excerpt: 'Get insights into urban agriculture trends and learn how to effectively implement hydroponic systems for optimal growth.',
     content: 'Full content about hydroponic systems...',
@@ -95,6 +69,36 @@ export const blogPosts: BlogPost[] = [
       avatar: '/reviews.jpg'
     }
   },
+
+   {
+    id: '4',
+    title: 'Invest In Precision Farming Tools For Efficiency',
+    excerpt: 'Explore the latest advancements in agricultural technology and precision farming tools that are revolutionizing modern agriculture.',
+    content: 'Full content about precision farming...',
+    imageUrl: '/blogs/precision-farm.png',
+    category: 'Technology',
+    date: 'Nov 12, 2024',
+    readTime: '7 min read',
+    author: {
+      name: 'Mike Chen',
+      avatar: '/reviews.jpg'
+    }
+  },
+  {
+    id: '5',
+    title: 'Adopt Regenerative Agriculture Practices',
+    excerpt: 'Implement new methods for soil health improvement through regenerative agriculture practices that benefit both crops and environment.',
+    content: 'Full content about regenerative agriculture...',
+    imageUrl: '/blogs/regenerative-ag.png',
+    category: 'Sustainability',
+    date: 'Nov 8, 2024',
+    readTime: '8 min read',
+    author: {
+      name: 'Dr. James Wilson',
+      avatar: '/reviews.jpg'
+    }
+  },
+ 
   {
     id: '6',
     title: 'Innovative Irrigation Techniques for Water Conservation',
@@ -114,7 +118,7 @@ export const blogPosts: BlogPost[] = [
     title: 'Sustainable Pest Management Solutions',
     excerpt: 'Explore eco-friendly pest control methods that protect your crops without harming the environment.',
     content: 'Full content about pest management...',
-    imageUrl: '/blogs/pest-management.png',
+    imageUrl: '/blogs/precision-farming.png',
     category: 'Sustainability',
     date: 'Nov 1, 2024',
     readTime: '6 min read',
@@ -142,7 +146,7 @@ export const blogPosts: BlogPost[] = [
     title: 'Explore Vertical Farming Benefits',
     excerpt: 'Learn about vertical farming advantages and how urban agriculture is shaping the future of sustainable food production.',
     content: 'Full content about vertical farming...',
-    imageUrl: '/blogs/vertical-farming.png',
+    imageUrl: '/blogs/pest-management.png',
     category: 'Sustainability',
     date: 'Nov 10, 2024',
     readTime: '6 min read',

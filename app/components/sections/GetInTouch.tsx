@@ -66,7 +66,9 @@ export const GetInTouch: React.FC = () => {
                   </div>
                   Email
                 </h3>
-                <p className="text-black font-medium">info@keljoagro.com</p>
+                <a href="mailto:info@keljoagro.com">
+                  <p className="text-black font-medium hover:text-[#246A21] transition-colors text-lg cursor-pointer">info@keljoagro.com</p>
+                </a>
               </div>
 
               {/* Phone */}
@@ -77,7 +79,9 @@ export const GetInTouch: React.FC = () => {
                   </div>
                   Phone
                 </h3>
-                <p className="text-black font-medium">+234 803 224 0379</p>
+                <a href="https://wa.me/+2348032240379">
+                  <p className="text-black font-medium hover:text-[#246A21] transition-colors text-lg cursor-pointer">+234 803 224 0379</p>
+                </a>
               </div>
             </div>
 

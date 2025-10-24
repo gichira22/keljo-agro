@@ -8,22 +8,33 @@ export const ContactCardsSection = () => {
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(defaultMessage)}`;
 
   return (
-    <section className="py-16 bg-gray-50">
+    <section className="py-20 lg:py-28 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
-            {/* Contacts Card - Green */}
+            {/*  Green Card*/}
             <ContactCard
-              title="Contacts"
+              title="Email Address"
               bgColor="bg-[#246A21]"
             >
-              <div className="space-y-3">
+              <div className="text-center">
                 <a 
                   href="mailto:info@keljoagro.com"
                   className="text-white hover:text-gray-200 transition-colors text-lg font-medium block "
                 >
                   info@keljoagro.com
                 </a>
+               
+              </div>
+              
+            </ContactCard>
+
+            {/*  Brown Card */}
+            <ContactCard
+              title="Contact"
+              bgColor="bg-[#513C07]"
+            >
+              <div className="text-center">
                 <a 
                   href="mailto:support@keljoagro.com"
                   className="text-white hover:text-gray-200 transition-colors text-lg font-medium block py-2"
@@ -45,33 +56,6 @@ export const ContactCardsSection = () => {
                 </div>
               </div>
               
-            </ContactCard>
-
-            {/* Working Hours- Brown */}
-            <ContactCard
-              title="Business Hours"
-              bgColor="bg-[#513C07]"
-            >
-              <div className="space-y-4">
-                
-                {/* Business Hours - Now inside brown card for all screens */}
-                <div className="pt-4 ">
-                  <div className="space-y-2 text-white text-opacity-90">
-                    <div className="flex justify-between">
-                      <span className="text-sm">Monday - Friday:</span>
-                      <span className="text-sm font-medium">7:00 AM - 6:00 PM</span>
-                    </div>
-                    <div className="flex justify-between">
-                      <span className="text-sm">Saturday:</span>
-                      <span className="text-sm font-medium">9:00 AM - 2:00 PM</span>
-                    </div>
-                    <div className="flex justify-between">
-                      <span className="text-sm">Sunday:</span>
-                      <span className="text-sm font-medium">Closed</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </ContactCard>
 
             {/* Address Card - Gold */}

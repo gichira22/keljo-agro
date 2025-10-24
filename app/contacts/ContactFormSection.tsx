@@ -1,4 +1,3 @@
-// app/contact-us/sections/ContactFormSection.tsx
 'use client';
 
 import { useState } from 'react';
@@ -82,22 +81,24 @@ export const ContactFormSection = () => {
   };
 
   return (
-    <section className="relative min-h-screen w-full">
+    <section className="relative w-full min-h-screen overflow-hidden">
       <div className="absolute inset-0">
-        <Image 
-          src="/contacts-bg.jpg" 
-          alt="Agricultural background" 
-          fill
-          className="object-cover align-stretch"
-          priority
-          sizes="(max-width: 1024px) 100vw, 50vw h-screen"
-        />
+        <Image
+  src="/contacts-bg.jpg"
+  alt="Agricultural background"
+  fill
+  className="object-cover align-stretch"
+  priority
+  sizes="(max-width: 768px) 100vw, 50vw"
+  style={{ objectPosition: 'center center' }} // You can adjust the position based on preference
+/>
+
       </div>
 
       {/* Overlay wrapper and form */}
-      <div className="relative z-10 w-full min-h-screen flex flex-col lg:flex-row items-stretch">
+      <div className="relative z-10 w-full flex flex-col lg:flex-row items-stretch">
         {/* Image Area - Visible on desktop */}
-        <div className="hidden lg:block lg:w-1/2 h-[85%] relative">
+        <div className="hidden lg:block lg:w-1/2 ">
         </div>
         
         {/* Form Container */}

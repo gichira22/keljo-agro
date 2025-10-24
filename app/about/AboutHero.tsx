@@ -22,7 +22,7 @@ export const AboutHero = () => {
       {/* Content */}
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center max-w-4xl mx-auto">
-          <h3 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-snug sm:leading-snug md:leading-snug mb-8">
+          <h3 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-snug sm:leading-snug md:leading-snug mb-8">
             We are shaping the future of agriculture through innovation, sustainability, and strategic partnerships
           </h3>
 

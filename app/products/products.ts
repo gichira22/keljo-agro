@@ -10,9 +10,9 @@ export const products = {
     { name: "Soybean", image: "/plants/soybean.png" }
   ],
   animalProduction: [
-    { name: "Poultry", image: "/animals/poultry.png" },
-    { name: "Fish", image: "/animals/fish.png" },
-    { name: "Pig", image: "/animals/pig.png" }
+    { name: "Poultry Farming", image: "/animals/poultry.png" },
+    { name: "Fish Farming", image: "/animals/fish.png" },
+    { name: "Pig Farming", image: "/animals/pig.png" }
   ],
   processedFoods: [
     { name: "Grains", image: "/processed/grains.png" },
