@@ -33,9 +33,9 @@ export const Header = () => {
                 <Link href="/products" className="text-[19px] text-gray-900 font-normal leading-[32px] hover:text-green-600 transition-colors whitespace-nowrap">
                     Products
                 </Link>
-                <Link href="/blogs" className="text-[19px] text-gray-900 font-normal leading-[32px] hover:text-green-600 transition-colors whitespace-nowrap">
+                {/* <Link href="/blogs" className="text-[19px] text-gray-900 font-normal leading-[32px] hover:text-green-600 transition-colors whitespace-nowrap">
                     Blogs
-                </Link>
+                </Link> */}
                 <Link href="/contacts" className="text-[19px] text-gray-900 font-normal leading-[32px] hover:text-green-600 transition-colors whitespace-nowrap">
                     Contact Us
                 </Link>
@@ -64,9 +64,9 @@ export const Header = () => {
                         <Link href="/products" className="text-[19px] text-gray-900 font-normal hover:text-green-600 transition-colors py-2" onClick={() => setIsMenuOpen(false)}>
                             Products
                         </Link>
-                        <Link href="/blogs" className="text-[19px] text-gray-900 font-normal hover:text-green-600 transition-colors py-2" onClick={() => setIsMenuOpen(false)}>
+                        {/* <Link href="/blogs" className="text-[19px] text-gray-900 font-normal hover:text-green-600 transition-colors py-2" onClick={() => setIsMenuOpen(false)}>
                             Blogs
-                        </Link>
+                        </Link> */}
                         <Link href="/contacts" className="text-[19px] text-gray-900 font-normal hover:text-green-600 transition-colors py-2" onClick={() => setIsMenuOpen(false)}>
                             Contact Us
                         </Link>

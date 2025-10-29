@@ -11,7 +11,7 @@ export const HeroSection = () => {
                 src="/hero.jpg" 
                 alt="Agricultural background" 
                 fill
-                className="object-cover"
+                className="object-cover object-center"
                 priority
                 sizes="100vw"
             />

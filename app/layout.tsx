@@ -6,8 +6,8 @@ import Footer from './components/layout/Footer';
 
 const raleway = Raleway({ subsets: ['latin'], display: 'swap' });
 
-const siteUrl = 'https://keljo-agro.vercel.app';
-const siteName = 'Keljo Agro';
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://keljo-agro.vercel.app';
+const siteName = process.env.NEXT_PUBLIC_SITE_NAME || 'Keljo Agro';
 
 export const metadata: Metadata = {
   title: {

@@ -79,7 +79,9 @@ export const GetInTouch: React.FC = () => {
                   </div>
                   Phone
                 </h3>
-                <a href="https://wa.me/+2348032240379">
+                <a href="https://wa.me/+2348032240379"
+                   target="_blank"
+                   rel="noopener noreferrer">
                   <p className="text-black font-medium hover:text-[#246A21] transition-colors text-lg cursor-pointer">+234 803 224 0379</p>
                 </a>
               </div>

@@ -1,14 +1,14 @@
 // app/contact-us/page.tsx
 import { HeroSection } from './HeroSection';
 import { ContactCardsSection } from './ContactCardsSection';
-import { ContactFormSection } from './ContactFormSection';
+// import { ContactFormSection } from './ContactFormSection';
 
 export default function ContactUsPage() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className=" bg-white">
       <HeroSection />
       <ContactCardsSection />
-      <ContactFormSection />
+      {/* <ContactFormSection /> */}
     </div>
   );
 }
