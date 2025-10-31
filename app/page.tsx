@@ -1,5 +1,5 @@
 import { HeroSection } from './components/sections/Hero';
-import { StatsSection } from './components/sections/StatsSection';
+// import { StatsSection } from './components/sections/StatsSection';
 import { ExecutiveMessage } from './components/sections/ExecutiveMessage';
 import { WhyChooseUs } from './components/sections/WhatWeOffer';
 import { Reviews } from './components/sections/Reviews';
@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className="min-h-screen">
       <HeroSection />
-      <StatsSection />
+      {/* <StatsSection /> */}
       <ExecutiveMessage />
       <WhyChooseUs />
       <Reviews />

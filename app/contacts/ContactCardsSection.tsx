@@ -3,9 +3,9 @@ import ContactCard from './ContactCard';
 
 export const ContactCardsSection = () => {
   // WhatsApp configuration
-  const phoneNumber = "+2348032240379";
-  const defaultMessage = "Hello Keljo Agro! I would like to get more information about your agricultural services.";
-  const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(defaultMessage)}`;
+  // const phoneNumber = "+2348032240379";
+  // const defaultMessage = "Hello Keljo Agro! I would like to get more information about your agricultural services.";
+  // const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(defaultMessage)}`;
 
   return (
     <section className="py-20 lg:py-28 bg-gray-50">
@@ -41,7 +41,7 @@ export const ContactCardsSection = () => {
                 >
                   support@keljoagro.com
                 </a>
-                <div className="inline-block">
+                {/* <div className="inline-block">
                   <a 
                     href={whatsappUrl}
                     target="_blank"
@@ -53,7 +53,7 @@ export const ContactCardsSection = () => {
                     </svg>
                     +234 803 224 0379
                   </a>
-                </div>
+                </div> */}
               </div>
               
             </ContactCard>

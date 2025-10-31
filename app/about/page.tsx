@@ -1,6 +1,6 @@
 import React from 'react';
 import {Reviews} from '../components/sections/Reviews'; // Using alias import (recommended)
-import Teams from './Teams'
+// import Teams from './Teams'
 import {Values} from './Values'
 import { AboutHero } from './AboutHero';
 import { AboutUs } from './AboutUs';
@@ -12,7 +12,7 @@ const AboutPage: React.FC = () => {
       <AboutUs />
       <Mision />
       <Values />
-      <Teams />
+      {/* <Teams /> */}
       <Reviews />
     </main>
   );

@@ -72,7 +72,7 @@ export const GetInTouch: React.FC = () => {
               </div>
 
               {/* Phone */}
-              <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+              {/* <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
                 <h3 className="text-xl font-semibold text-[#246A21] mb-4 flex items-center">
                   <div className="w-8 h-8 bg-[#246A21] rounded-full flex items-center justify-center mr-3">
                     <Image src="/icons/call.svg" alt="Phone" width={20} height={20} />
@@ -84,7 +84,7 @@ export const GetInTouch: React.FC = () => {
                    rel="noopener noreferrer">
                   <p className="text-black font-medium hover:text-[#246A21] transition-colors text-lg cursor-pointer">+234 803 224 0379</p>
                 </a>
-              </div>
+              </div> */}
             </div>
 
             {/* Office */}
